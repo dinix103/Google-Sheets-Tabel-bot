@@ -1,9 +1,0 @@
-# requirements.txt — зависимости Telegram-бота для учёта посещаемости (Google Sheets)
-# Совместимо с Python >= 3.9
-
-aiogram==3.13.1          # фреймворк Telegram-бота
-pandas==2.2.3            # работа с таблицами (анализ, DataFrame)
-numpy==1.26.4             # числовые операции и совместимость с pandas
-gspread==6.1.4            # доступ к Google Sheets API
-google-auth==2.36.0       # авторизация Google API
-openpyxl==3.1.5           # поддержка XLSX (резервное чтение)
